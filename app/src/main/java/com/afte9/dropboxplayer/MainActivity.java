@@ -12,8 +12,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         getSupportActionBar().hide();
 
-
-
         TabHost host = (TabHost)findViewById(R.id.tabHost);
         host.setup();
 
