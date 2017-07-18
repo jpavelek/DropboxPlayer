@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().hide();
 
 
+
         TabHost host = (TabHost)findViewById(R.id.tabHost);
         host.setup();
 
@@ -33,6 +34,13 @@ public class MainActivity extends AppCompatActivity {
         spec = host.newTabSpec("Tab video");
         spec.setContent(R.id.tab_video);
         spec.setIndicator(getString(R.string.tab_videos));
+        host.addTab(spec);
+
+
+        //Tab All
+        spec = host.newTabSpec("Tab all");
+        spec.setContent(R.id.tab_all);
+        spec.setIndicator(getString(R.string.tab_all));
         host.addTab(spec);
 
     }
