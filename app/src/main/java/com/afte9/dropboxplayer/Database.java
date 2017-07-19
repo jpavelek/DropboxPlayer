@@ -20,4 +20,12 @@ class Database {
         //FIXME - this needs real implementation one day
         db = new String[] {"Hallo", "There", "Many more", "Weekend and more", "Mas que nada", "Scratch the pitch", "Nevermind"};
     }
+
+    protected boolean haveFavorites() {
+        return false; //FIXME - implement favorites checks
+    }
+
+    protected String[] getPlaylists() {
+        return db;
+    }
 }

@@ -2,9 +2,13 @@ package com.afte9.dropboxplayer;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.TabHost;
+import com.afte9.dropboxplayer.PlaylistListContent.PlaylistListItem;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements FragmentPlaylists.OnListFragmentInteractionListener {
+
+    private Database db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,11 +20,15 @@ public class MainActivity extends AppCompatActivity {
         host.setup();
 
         TabHost.TabSpec spec;
-        //Tab Recent
-        spec = host.newTabSpec("Tab recent");
-        spec.setContent(R.id.tab_recent);
-        spec.setIndicator(getString(R.string.tab_recent));
-        host.addTab(spec);
+
+        db = Database.getInstance();
+        if (db.haveFavorites() == true) {
+            //Tab Recent
+            spec = host.newTabSpec("Tab recent");
+            spec.setContent(R.id.tab_recent);
+            spec.setIndicator(getString(R.string.tab_recent));
+            host.addTab(spec);
+        }
 
         //Tab Music
         spec = host.newTabSpec("Tab music");
@@ -41,5 +49,11 @@ public class MainActivity extends AppCompatActivity {
         spec.setIndicator(getString(R.string.tab_all));
         host.addTab(spec);
 
+    }
+
+
+    @Override
+    public void onListFragmentInteraction(PlaylistListItem item) {
+        Log.d("DBP", "List fragment callback");
     }
 }
