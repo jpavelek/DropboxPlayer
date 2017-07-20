@@ -31,6 +31,12 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
+                    <fragment
+                        android:id="@+id/f_recent_playlists"
+                        android:name = "com.afte9.dropboxplayer.FragmentPlaylists"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
                 </LinearLayout>
 
                 <LinearLayout
@@ -40,6 +46,7 @@
                     android:orientation="vertical">
 
                     <fragment
+                        android:id="@+id/f_music_playlists"
                         android:name = "com.afte9.dropboxplayer.FragmentPlaylists"
                         android:layout_height="match_parent"
                         android:layout_width="match_parent"/>
@@ -52,6 +59,12 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
+                    <fragment
+                        android:id="@+id/f_video_playlists"
+                        android:name = "com.afte9.dropboxplayer.FragmentPlaylists"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
                 </LinearLayout>
 
                 <LinearLayout
@@ -61,6 +74,7 @@
                     android:orientation="vertical">
 
                     <fragment
+                        android:id="@+id/f_all_playlists"
                         android:name = "com.afte9.dropboxplayer.FragmentPlaylists"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"/>

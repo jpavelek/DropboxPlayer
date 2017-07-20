@@ -89,7 +89,7 @@ public class FragmentPlaylists extends Fragment {
         mListener = null;
     }
 
-    public interface OnListFragmentInteractionListener {
+    protected interface OnListFragmentInteractionListener {
         //Interaction to be implemented in the activity using this fragment
         void onListFragmentInteraction(PlaylistListItem item);
     }

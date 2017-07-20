@@ -4,8 +4,5 @@
     <string name="tab_music">Music</string>
     <string name="tab_videos">Videos</string>
     <string name="tab_all">All</string>
-    <string name="splash_loading">Looking for your files</string>
     <string name="playlists">Available playlists</string>
-    <string name="other_playlists">Other playlists</string>
-    <string name="next_songs">Next songs</string>
 </resources>

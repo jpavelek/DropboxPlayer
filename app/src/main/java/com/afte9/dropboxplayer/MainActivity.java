@@ -8,8 +8,6 @@ import com.afte9.dropboxplayer.PlaylistListContent.PlaylistListItem;
 
 public class MainActivity extends AppCompatActivity implements FragmentPlaylists.OnListFragmentInteractionListener {
 
-    private Database db;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,8 +19,8 @@ public class MainActivity extends AppCompatActivity implements FragmentPlaylists
 
         TabHost.TabSpec spec;
 
-        db = Database.getInstance();
-        if (db.haveFavorites() == true) {
+        Database db = Database.getInstance();
+        if (db.haveFavorites()) {
             //Tab Recent
             spec = host.newTabSpec("Tab recent");
             spec.setContent(R.id.tab_recent);

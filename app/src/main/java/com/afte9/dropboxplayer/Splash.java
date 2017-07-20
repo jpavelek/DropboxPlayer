@@ -7,7 +7,6 @@ import android.os.Bundle;
 
 public class Splash extends AppCompatActivity {
 
-    private Database db;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -15,7 +14,7 @@ public class Splash extends AppCompatActivity {
 
         getSupportActionBar().hide();
 
-        db = Database.getInstance();
+        Database db = Database.getInstance();
         db.readFiles();
 
         CountDownTimer t = new CountDownTimer(2000, 2000) {
