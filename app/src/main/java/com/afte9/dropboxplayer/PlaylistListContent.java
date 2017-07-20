@@ -45,7 +45,7 @@ public class PlaylistListContent {
     }
 
     /**
-     * A dummy item representing a piece of content.
+     * Item representing a piece of content.
      */
     public static class PlaylistListItem {
         public final String id; //Used for the hash function
