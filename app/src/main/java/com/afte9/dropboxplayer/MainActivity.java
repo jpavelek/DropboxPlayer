@@ -12,7 +12,6 @@ public class MainActivity extends AppCompatActivity implements FragmentPlaylists
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        getSupportActionBar().hide();
 
         TabHost host = (TabHost)findViewById(R.id.tabHost);
         host.setup();
