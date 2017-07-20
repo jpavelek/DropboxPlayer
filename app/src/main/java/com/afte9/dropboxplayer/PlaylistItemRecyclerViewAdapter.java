@@ -4,6 +4,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.afte9.dropboxplayer.FragmentPlaylists.OnListFragmentInteractionListener;
@@ -36,8 +37,9 @@ public class PlaylistItemRecyclerViewAdapter extends RecyclerView.Adapter<Playli
     @Override
     public void onBindViewHolder(final ViewHolder holder, int position) {
         holder.mItem = mValues.get(position);
-        holder.mIdView.setText(mValues.get(position).id);
-        holder.mContentView.setText(mValues.get(position).content);
+        //TODO - set custom playlist icon here eventually
+        holder.mPlaylistNameView.setText(mValues.get(position).playlist_name);
+        holder.mNumberofItemsView.setText(mValues.get(position).nr_items);
 
         holder.mView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -58,20 +60,22 @@ public class PlaylistItemRecyclerViewAdapter extends RecyclerView.Adapter<Playli
 
     public class ViewHolder extends RecyclerView.ViewHolder {
         public final View mView;
-        public final TextView mIdView;
-        public final TextView mContentView;
+        public final ImageView mIconView;
+        public final TextView mPlaylistNameView;
+        public final TextView mNumberofItemsView;
         public PlaylistListItem mItem;
 
         public ViewHolder(View view) {
             super(view);
             mView = view;
-            mIdView = (TextView) view.findViewById(R.id.id);
-            mContentView = (TextView) view.findViewById(R.id.content);
+            mIconView = (ImageView) view.findViewById(R.id.imageView_playlist_icon);
+            mPlaylistNameView = (TextView) view.findViewById(R.id.textView_playlist_name);
+            mNumberofItemsView = (TextView) view.findViewById(R.id.textView_number_of_items);
         }
 
         @Override
         public String toString() {
-            return super.toString() + " '" + mContentView.getText() + "'";
+            return super.toString() + " '" + mPlaylistNameView.getText() + "'";
         }
     }
 }

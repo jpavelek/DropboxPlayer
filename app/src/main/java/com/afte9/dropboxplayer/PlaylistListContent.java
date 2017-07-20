@@ -36,7 +36,7 @@ public class PlaylistListContent {
     }
 
     private static PlaylistListItem createDummyItem(int position) {
-        return new PlaylistListItem(String.valueOf(position), "Item " + position, makeDetails(position));
+        return new PlaylistListItem(String.valueOf(position), "Item " + position, "23", makeDetails(position));
     }
 
     private static String makeDetails(int position) {
@@ -53,18 +53,20 @@ public class PlaylistListContent {
      */
     public static class PlaylistListItem {
         public final String id;
-        public final String content;
+        public final String playlist_name;
+        public final String nr_items;
         public final String details;
 
-        public PlaylistListItem(String id, String content, String details) {
+        public PlaylistListItem(String id, String playlist, String items, String details) {
             this.id = id;
-            this.content = content;
+            this.playlist_name = playlist;
             this.details = details;
+            this.nr_items = items;
         }
 
         @Override
         public String toString() {
-            return content;
+            return playlist_name;
         }
     }
 }
