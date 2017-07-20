@@ -3,6 +3,7 @@ package com.afte9.dropboxplayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.TabHost;
 import com.afte9.dropboxplayer.PlaylistListContent.PlaylistListItem;
 
@@ -25,6 +26,8 @@ public class MainActivity extends AppCompatActivity implements FragmentPlaylists
             spec.setContent(R.id.tab_recent);
             spec.setIndicator(getString(R.string.tab_recent));
             host.addTab(spec);
+        } else {
+            findViewById(R.id.f_recent_playlists).setVisibility(View.INVISIBLE);
         }
 
         //Tab Music
