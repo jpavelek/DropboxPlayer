@@ -4,29 +4,62 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_margin="@dimen/text_margin"
     android:orientation="horizontal">
 
     <ImageView
         android:id="@+id/imageView_playlist_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_marginRight="@dimen/text_margin"
         app:srcCompat="@mipmap/icon" />
 
-    <TextView
-        android:id="@+id/textView_playlist_name"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_margin="@dimen/text_margin"
-        android:textAppearance="?attr/textAppearanceListItem"
-        tools:text="Disney La Reine des Neiges" />
 
-    <TextView
-        android:id="@+id/textView_number_of_items"
-        android:layout_width="wrap_content"
+    <TableLayout
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="@dimen/text_margin"
-        android:layout_weight="1"
-        android:text="TextView"
-        tools:text="72" />
+        android:layout_gravity="fill_horizontal"
+        android:stretchColumns="0"
+        android:shrinkColumns="1">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textView_playlist_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="@dimen/dbp_list_title"
+
+                tools:text="Disney La Reine des Neiges" />
+
+            <TextView
+                android:id="@+id/textView_number_of_items"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:textSize="@dimen/dbp_list_detail"
+                tools:text="72" />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textView_artists"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textSize="@dimen/dbp_list_detail"
+                tools:text="Abba, Nirvana, PSY" />
+
+            <TextView
+                android:id="@+id/textView_playtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:textSize="@dimen/dbp_list_detail"
+                tools:text="2:34:12" />
+        </TableRow>
+
+    </TableLayout>
+
 </LinearLayout>

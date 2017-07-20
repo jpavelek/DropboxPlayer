@@ -40,6 +40,8 @@ public class PlaylistItemRecyclerViewAdapter extends RecyclerView.Adapter<Playli
         //TODO - set custom playlist icon here eventually
         holder.mPlaylistNameView.setText(mValues.get(position).playlist_name);
         holder.mNumberofItemsView.setText(mValues.get(position).nr_items);
+        holder.mArtistsView.setText(mValues.get(position).artists);
+        holder.mPlaytimeView.setText(mValues.get(position).playtime);
 
         holder.mView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -63,6 +65,8 @@ public class PlaylistItemRecyclerViewAdapter extends RecyclerView.Adapter<Playli
         public final ImageView mIconView;
         public final TextView mPlaylistNameView;
         public final TextView mNumberofItemsView;
+        public final TextView mArtistsView;
+        public final TextView mPlaytimeView;
         public PlaylistListItem mItem;
 
         public ViewHolder(View view) {
@@ -71,6 +75,8 @@ public class PlaylistItemRecyclerViewAdapter extends RecyclerView.Adapter<Playli
             mIconView = (ImageView) view.findViewById(R.id.imageView_playlist_icon);
             mPlaylistNameView = (TextView) view.findViewById(R.id.textView_playlist_name);
             mNumberofItemsView = (TextView) view.findViewById(R.id.textView_number_of_items);
+            mArtistsView = (TextView) view.findViewById(R.id.textView_artists);
+            mPlaytimeView = (TextView) view.findViewById(R.id.textView_playtime);
         }
 
         @Override

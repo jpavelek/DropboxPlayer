@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Random;
 
 /**
  * Helper class for providing sample content for user interfaces created by
@@ -26,7 +27,7 @@ public class PlaylistListContent {
     static {
         // Add some sample items.
         for (int i = 1; i <= COUNT; i++) {
-            addItem(createDummyItem(i));
+            addItem(createPlaylistItem(i));
         }
     }
 
@@ -35,33 +36,30 @@ public class PlaylistListContent {
         ITEM_MAP.put(item.id, item);
     }
 
-    private static PlaylistListItem createDummyItem(int position) {
-        return new PlaylistListItem(String.valueOf(position), "Item " + position, "23", makeDetails(position));
-    }
+    private static PlaylistListItem createPlaylistItem(int position) {
+        //FIXME - this is creating dummy items, make it create real ones
+        Random rand = new Random();
+        int r = rand.nextInt(99);
 
-    private static String makeDetails(int position) {
-        StringBuilder builder = new StringBuilder();
-        builder.append("Details about Item: ").append(position);
-        for (int i = 0; i < position; i++) {
-            builder.append("\nMore details information here.");
-        }
-        return builder.toString();
+        return new PlaylistListItem(String.valueOf(position), "Item " + position, String.valueOf(r), "Abba, Queen and Nirvana ", "1:23:45");
     }
 
     /**
      * A dummy item representing a piece of content.
      */
     public static class PlaylistListItem {
-        public final String id;
+        public final String id; //Used for the hash function
         public final String playlist_name;
         public final String nr_items;
-        public final String details;
+        public final String playtime;
+        public final String artists;
 
-        public PlaylistListItem(String id, String playlist, String items, String details) {
+        public PlaylistListItem(String id, String playlist_name, String nr_items, String artists, String playtime) {
             this.id = id;
-            this.playlist_name = playlist;
-            this.details = details;
-            this.nr_items = items;
+            this.playlist_name = playlist_name;
+            this.nr_items = nr_items;
+            this.artists = artists;
+            this.playtime = playtime;
         }
 
         @Override
