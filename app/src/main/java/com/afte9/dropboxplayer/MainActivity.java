@@ -55,5 +55,6 @@ public class MainActivity extends AppCompatActivity implements FragmentPlaylists
     @Override
     public void onListFragmentInteraction(PlaylistListItem item) {
         Log.d("DBP", "List fragment callback");
+        //TODO - implement playlist selection, launch Audio/Video playback activity
     }
 }

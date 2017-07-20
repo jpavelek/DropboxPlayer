@@ -56,10 +56,12 @@ public class FragmentPlaylists extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_playlist_item_list, container, false);
 
+        View recycler_view = view.findViewById(R.id.list);
+
         // Set the adapter
-        if (view instanceof RecyclerView) {
-            Context context = view.getContext();
-            RecyclerView recyclerView = (RecyclerView) view;
+        if (recycler_view instanceof RecyclerView) {
+            Context context = recycler_view.getContext();
+            RecyclerView recyclerView = (RecyclerView) recycler_view;
             if (mColumnCount <= 1) {
                 recyclerView.setLayoutManager(new LinearLayoutManager(context));
             } else {
@@ -77,8 +79,7 @@ public class FragmentPlaylists extends Fragment {
         if (context instanceof OnListFragmentInteractionListener) {
             mListener = (OnListFragmentInteractionListener) context;
         } else {
-            throw new RuntimeException(context.toString()
-                    + " must implement OnListFragmentInteractionListener");
+            throw new RuntimeException(context.toString()  + " must implement OnListFragmentInteractionListener");
         }
     }
 
@@ -88,18 +89,8 @@ public class FragmentPlaylists extends Fragment {
         mListener = null;
     }
 
-    /**
-     * This interface must be implemented by activities that contain this
-     * fragment to allow an interaction in this fragment to be communicated
-     * to the activity and potentially other fragments contained in that
-     * activity.
-     * <p/>
-     * See the Android Training lesson <a href=
-     * "http://developer.android.com/training/basics/fragments/communicating.html"
-     * >Communicating with Other Fragments</a> for more information.
-     */
     public interface OnListFragmentInteractionListener {
-        // TODO: Update argument type and name
+        //Interaction to be implemented in the activity using this fragment
         void onListFragmentInteraction(PlaylistListItem item);
     }
 }
