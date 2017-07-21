@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -12,7 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:stretchColumns="0"
-        android:shrinkColumns="1">
+        android:shrinkColumns="1"
+        android:layout_marginRight="@dimen/context_menu_icon_placeholder_width">
         <TableRow>
             <TextView
                 android:id="@+id/textView_song_name"
@@ -40,9 +40,4 @@
                 tools:text="2:34"/>
         </TableRow>
     </TableLayout>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-
 </LinearLayout>
