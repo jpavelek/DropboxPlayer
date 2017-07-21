@@ -6,11 +6,11 @@
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     android:orientation="vertical"
-    android:name="com.afte9.dropboxplayer.FragmentPlaylists"
-    tools:context="com.afte9.dropboxplayer.FragmentPlaylists">
+    android:name="com.afte9.dropboxplayer.FragmentSongs"
+    tools:context="com.afte9.dropboxplayer.FragmentSongs">
 
     <TextView
-        android:id="@+id/textView_playlists_description"
+        android:id="@+id/textView_songs_description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/text_margin"
@@ -24,6 +24,6 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         app:layoutManager="LinearLayoutManager"
-        tools:listitem="@layout/fragment_playlists_item" />
+        tools:listitem="@layout/fragment_songlist_item" />
 
 </LinearLayout>
