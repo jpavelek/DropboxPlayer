@@ -1,4 +1,4 @@
-package com.afte9.dropboxplayer;
+package com.afte9.dropboxplayer.FragmentPlaylists;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -7,23 +7,22 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.afte9.dropboxplayer.FragmentPlaylists.OnListFragmentInteractionListener;
-import com.afte9.dropboxplayer.PlaylistListContent.PlaylistListItem;
+import com.afte9.dropboxplayer.R;
 
 import java.util.List;
 
 /**
  * {@link RecyclerView.Adapter} that can display a PlalistListItem and makes a call to the
- * specified {@link OnListFragmentInteractionListener}.
+ * specified {@link FragmentPlaylists.OnListFragmentInteractionListener}.
  * TODO: Replace the implementation with code for your data type.
  */
 public class PlaylistItemRecyclerViewAdapter extends RecyclerView.Adapter<PlaylistItemRecyclerViewAdapter.ViewHolder> {
 
     //private final List<PlaylistListContent> mValues;
     private List<PlaylistListContent.PlaylistListItem> mValues;
-    private final OnListFragmentInteractionListener mListener;
+    private final FragmentPlaylists.OnListFragmentInteractionListener mListener;
 
-    public PlaylistItemRecyclerViewAdapter(List<PlaylistListItem> items, OnListFragmentInteractionListener listener) {
+    public PlaylistItemRecyclerViewAdapter(List<PlaylistListContent.PlaylistListItem> items, FragmentPlaylists.OnListFragmentInteractionListener listener) {
         mValues = items;
         mListener = listener;
     }
@@ -67,7 +66,7 @@ public class PlaylistItemRecyclerViewAdapter extends RecyclerView.Adapter<Playli
         public final TextView mNumberofItemsView;
         public final TextView mArtistsView;
         public final TextView mPlaytimeView;
-        public PlaylistListItem mItem;
+        public PlaylistListContent.PlaylistListItem mItem;
 
         public ViewHolder(View view) {
             super(view);

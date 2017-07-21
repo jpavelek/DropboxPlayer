@@ -1,4 +1,4 @@
-package com.afte9.dropboxplayer;
+package com.afte9.dropboxplayer.FragmentSongs;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -10,7 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.afte9.dropboxplayer.PlaylistListContent.PlaylistListItem;
+import com.afte9.dropboxplayer.R;
 
 /**
  * A fragment representing a list of Items.
@@ -18,7 +18,7 @@ import com.afte9.dropboxplayer.PlaylistListContent.PlaylistListItem;
  * Activities containing this fragment MUST implement the {@link OnListFragmentInteractionListener}
  * interface.
  */
-public class FragmentPlaylists extends Fragment {
+public class FragmentSongs extends Fragment {
 
     // TODO: Customize parameter argument names
     private static final String ARG_COLUMN_COUNT = "column-count";
@@ -30,13 +30,13 @@ public class FragmentPlaylists extends Fragment {
      * Mandatory empty constructor for the fragment manager to instantiate the
      * fragment (e.g. upon screen orientation changes).
      */
-    public FragmentPlaylists() {
+    public FragmentSongs() {
     }
 
     // TODO: Customize parameter initialization
     @SuppressWarnings("unused")
-    public static FragmentPlaylists newInstance(int columnCount) {
-        FragmentPlaylists fragment = new FragmentPlaylists();
+    public static FragmentSongs newInstance(int columnCount) {
+        FragmentSongs fragment = new FragmentSongs();
         Bundle args = new Bundle();
         args.putInt(ARG_COLUMN_COUNT, columnCount);
         fragment.setArguments(args);
@@ -54,7 +54,7 @@ public class FragmentPlaylists extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_playlist_item_list, container, false);
+        View view = inflater.inflate(R.layout.fragment_songlist_item_list, container, false);
 
         View recycler_view = view.findViewById(R.id.list);
 
@@ -67,7 +67,7 @@ public class FragmentPlaylists extends Fragment {
             } else {
                 recyclerView.setLayoutManager(new GridLayoutManager(context, mColumnCount));
             }
-            recyclerView.setAdapter(new PlaylistItemRecyclerViewAdapter(PlaylistListContent.ITEMS, mListener));
+            recyclerView.setAdapter(new SongsItemRecyclerViewAdapter(SongsListContent.ITEMS, mListener));
         }
         return view;
     }
@@ -91,6 +91,6 @@ public class FragmentPlaylists extends Fragment {
 
     protected interface OnListFragmentInteractionListener {
         //Interaction to be implemented in the activity using this fragment
-        void onListFragmentInteraction(PlaylistListItem item);
+        void onListFragmentInteraction(SongsListContent.SongsListItem item);
     }
 }

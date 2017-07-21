@@ -5,7 +5,9 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.TabHost;
-import com.afte9.dropboxplayer.PlaylistListContent.PlaylistListItem;
+
+import com.afte9.dropboxplayer.FragmentPlaylists.FragmentPlaylists;
+import com.afte9.dropboxplayer.FragmentPlaylists.PlaylistListContent.PlaylistListItem;
 
 public class MainActivity extends AppCompatActivity implements FragmentPlaylists.OnListFragmentInteractionListener {
 
