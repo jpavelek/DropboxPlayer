@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/playback_controls"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1,2,3"
+    android:shrinkColumns="0,4"
+    android:layout_margin="@dimen/text_margin">
+    <TableRow
+        android:layout_marginBottom="@dimen/text_margin">
+        <ProgressBar
+            android:id="@+id/playback_progress"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="false"
+            android:layout_span="5"/>
+    </TableRow>
+    <TableRow>
+
+        <ImageButton
+            android:id="@+id/playback_toggle_shuffle"
+            app:srcCompat="@android:drawable/ic_media_rew" />
+
+        <ImageButton
+            android:id="@+id/playback_button_prev"
+            app:srcCompat="@android:drawable/ic_media_previous" />
+
+        <ImageButton
+            android:id="@+id/playback_button_play_pause"
+            app:srcCompat="@android:drawable/ic_media_play" />
+
+        <ImageButton
+            android:id="@+id/playback_button_next"
+            app:srcCompat="@android:drawable/ic_media_next" />
+
+        <ImageButton
+            android:id="@+id/playback_toggle_repeat"
+            app:srcCompat="@android:drawable/ic_media_ff" />
+    </TableRow>
+
+</TableLayout>

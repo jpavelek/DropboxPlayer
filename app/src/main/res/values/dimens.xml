@@ -2,6 +2,7 @@
     <dimen name="text_margin">8dp</dimen>
     <dimen name="context_menu_icon_placeholder_width">24dp</dimen>
     <dimen name="context_menu_icon_placeholder_height">24dp</dimen>
+    <dimen name="playback_buton_size">32dp</dimen>
     <dimen name="dbp_list_title">18sp</dimen>
     <dimen name="dbp_list_detail">10sp</dimen>
 </resources>
