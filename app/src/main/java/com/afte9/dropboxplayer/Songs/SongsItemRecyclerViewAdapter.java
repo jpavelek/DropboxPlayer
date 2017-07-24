@@ -68,7 +68,7 @@ public class SongsItemRecyclerViewAdapter extends RecyclerView.Adapter<SongsItem
             mView = view;
             mSongNameView = (TextView) view.findViewById(R.id.textView_song_name);
             mSongArtistView = (TextView) view.findViewById(R.id.textView_song_artist);
-            mPlaytimeView = (TextView) view.findViewById(R.id.textView_playtime);
+            mPlaytimeView = (TextView) view.findViewById(R.id.textView_song_playtime);
         }
 
         @Override
