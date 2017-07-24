@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/audio_playback"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.afte9.dropboxplayer.ActivityAudioPlayback">
+
+    <fragment
+        android:id="@+id/f_list_of_songs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name = "com.afte9.dropboxplayer.Songs.FragmentSongs"
+        android:layout_alignParentTop="true"/>
+
+    <include
+        layout="@layout/playback_controls"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom = "true"
+        />
+
+</RelativeLayout>

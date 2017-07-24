@@ -15,7 +15,7 @@ public class Splash extends AppCompatActivity {
         Database db = Database.getInstance();
         db.readFiles();
 
-        CountDownTimer t = new CountDownTimer(2000, 2000) {
+        CountDownTimer t = new CountDownTimer(1000, 1000) {
             @Override
             public void onTick(long millisUntilFinished) {
                 //do nothing

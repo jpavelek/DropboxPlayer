@@ -1,5 +1,6 @@
 package com.afte9.dropboxplayer;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -58,5 +59,7 @@ public class MainActivity extends AppCompatActivity implements FragmentPlaylists
     public void onListFragmentInteraction(PlaylistListItem item) {
         Log.d("DBP", "List fragment callback");
         //TODO - implement playlist selection, launch Audio/Video playback activity
+        Intent i = new Intent(this, ActivityAudioPlayback.class);
+        startActivity(i);
     }
 }
