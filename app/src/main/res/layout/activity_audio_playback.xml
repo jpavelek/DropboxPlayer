@@ -7,12 +7,19 @@
     android:layout_height="match_parent"
     tools:context="com.afte9.dropboxplayer.ActivityAudioPlayback">
 
+    <include
+        layout="@layout/currently_playing_and_playlist"
+        android:id="@+id/now_playing"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"/>
+
     <fragment
         android:id="@+id/f_list_of_songs"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:name = "com.afte9.dropboxplayer.Songs.FragmentSongs"
-        android:layout_alignParentTop="true"
+        android:layout_below="@+id/now_playing"
         android:layout_above="@+id/playback_controls"/>
 
     <include
