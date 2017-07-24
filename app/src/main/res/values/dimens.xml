@@ -5,4 +5,7 @@
     <dimen name="playback_buton_size">32dp</dimen>
     <dimen name="dbp_list_title">18sp</dimen>
     <dimen name="dbp_list_detail">10sp</dimen>
+    <dimen name="dbp_nowplaying_text_big">32sp</dimen>
+    <dimen name="dbp_nowplaying_text_medium">24sp</dimen>
+    <dimen name="dbp_nowplaying_text_small">14sp</dimen>
 </resources>

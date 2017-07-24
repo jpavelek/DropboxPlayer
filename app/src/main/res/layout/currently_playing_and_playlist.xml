@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/text_margin">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0">
+        <TableRow>
+            <TextView
+                android:id="@+id/nowplaying_playlist_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/dbp_nowplaying_text_big"
+                tools:text="BigJ" />
+            <TextView
+                android:id="@+id/nowplaying_playlist_position"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/dbp_list_detail"
+                tools:text="3/41" />
+        </TableRow>
+    </TableLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/nowplaying_song_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/text_margin"
+            app:srcCompat="@mipmap/icon" />
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stretchColumns="0">
+            <TableRow>
+                <TextView
+                    android:id="@+id/nowplaying_song_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/dbp_nowplaying_text_medium"
+                    tools:text="La Ritournelle"
+                    android:layout_span="2"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/nowplaying_artist_name"
+                    android:textSize="@dimen/dbp_nowplaying_text_small"
+                    tools:text="ABBA"/>
+                <TextView
+                    android:id="@+id/nowplaying_song_playtime"
+                    android:textSize="@dimen/dbp_nowplaying_text_small"
+                    tools:text="2:34" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>
