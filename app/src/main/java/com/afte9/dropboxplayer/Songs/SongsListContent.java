@@ -1,4 +1,4 @@
-package com.afte9.dropboxplayer.FragmentSongs;
+package com.afte9.dropboxplayer.Songs;
 
 import java.util.ArrayList;
 import java.util.HashMap;

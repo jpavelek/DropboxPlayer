@@ -1,4 +1,4 @@
-package com.afte9.dropboxplayer.FragmentPlaylists;
+package com.afte9.dropboxplayer.Playlists;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -89,7 +89,7 @@ public class FragmentPlaylists extends Fragment {
         mListener = null;
     }
 
-    protected interface OnListFragmentInteractionListener {
+    public interface OnListFragmentInteractionListener {
         //Interaction to be implemented in the activity using this fragment
         void onListFragmentInteraction(PlaylistListContent.PlaylistListItem item);
     }

@@ -1,4 +1,4 @@
-package com.afte9.dropboxplayer.FragmentSongs;
+package com.afte9.dropboxplayer.Songs;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
