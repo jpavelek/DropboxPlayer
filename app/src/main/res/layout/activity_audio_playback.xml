@@ -12,6 +12,7 @@
         android:id="@+id/now_playing"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
+        android:layout_margin="@dimen/bigger_margin"
         android:layout_alignParentTop="true"/>
 
     <fragment
@@ -28,6 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:layout_alignParentBottom = "true"
+        android:layout_margin="@dimen/text_margin"
         />
 
 </RelativeLayout>
