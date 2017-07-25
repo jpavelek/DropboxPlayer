@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TableLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/audio_playback"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_margin="@dimen/text_margin"
     tools:context="com.afte9.dropboxplayer.ActivityAudioPlayback">
-    <TableRow>
+
         <RelativeLayout
             android:layout_width="wrap_content"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_weight="1">
             <include
                 layout="@layout/currently_playing_and_playlist"
                 android:id="@+id/now_playing"
@@ -23,15 +26,11 @@
                 android:layout_width="wrap_content"
                 android:layout_alignParentBottom="true"/>
         </RelativeLayout>
-        <LinearLayout
+        <fragment
+            android:id="@+id/f_list_of_songs"
+            android:name="com.afte9.dropboxplayer.Songs.FragmentSongs"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_width="wrap_content">
-            <fragment
-                android:id="@+id/f_list_of_songs"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:name = "com.afte9.dropboxplayer.Songs.FragmentSongs"/>
-        </LinearLayout>
-
-    </TableRow>
-</TableLayout>
+            android:layout_weight="1"
+            tools:layout="@layout/fragment_songlist_item_list" />
+</LinearLayout>

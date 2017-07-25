@@ -14,8 +14,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/text_margin"
-        android:text="@string/playlists"
-        tools:text="Playlists"/>
+        android:text="@string/next_songs"
+        tools:text="@string/next_songs" />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/list"

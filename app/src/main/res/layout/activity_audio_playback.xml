@@ -17,11 +17,12 @@
 
     <fragment
         android:id="@+id/f_list_of_songs"
+        android:name="com.afte9.dropboxplayer.Songs.FragmentSongs"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:name = "com.afte9.dropboxplayer.Songs.FragmentSongs"
+        android:layout_above="@+id/playback_controls"
         android:layout_below="@+id/now_playing"
-        android:layout_above="@+id/playback_controls"/>
+        tools:layout="@layout/fragment_songlist_item_list" />
 
     <include
         layout="@layout/playback_controls"
