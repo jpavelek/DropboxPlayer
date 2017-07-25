@@ -11,19 +11,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:stretchColumns="0"
-        android:layout_marginBottom="@dimen/bigger_margin">
+        android:layout_marginBottom="@dimen/text_margin">
         <TableRow>
             <TextView
                 android:id="@+id/nowplaying_playlist_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="@dimen/dbp_nowplaying_text_big"
+                android:textSize="@dimen/dbp_nowplaying_text_small"
                 tools:text="BigJ" />
             <TextView
                 android:id="@+id/nowplaying_playlist_position"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="@dimen/dbp_list_detail"
+                android:textSize="@dimen/dbp_nowplaying_text_small"
                 tools:text="3/41" />
         </TableRow>
     </TableLayout>
@@ -47,6 +47,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="@dimen/dbp_nowplaying_text_medium"
+                    android:textColor="@android:color/white"
                     tools:text="La Ritournelle"
                     android:layout_span="2"/>
             </TableRow>
