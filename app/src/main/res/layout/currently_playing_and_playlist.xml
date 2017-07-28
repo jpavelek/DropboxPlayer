@@ -35,7 +35,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="@dimen/text_margin"
-            app:srcCompat="@mipmap/icon" />
+            app:srcCompat="@drawable/icon_record" />
         <TableLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -24,15 +24,18 @@
 
         <ImageButton
             android:id="@+id/playback_button_prev"
-            app:srcCompat="@android:drawable/ic_media_previous" />
+            app:srcCompat="@drawable/icon_prev"
+            android:background="?android:selectableItemBackground"/>
 
         <ImageButton
             android:id="@+id/playback_button_play_pause"
-            app:srcCompat="@android:drawable/ic_media_play" />
+            app:srcCompat="@drawable/icon_play"
+            android:background="?android:selectableItemBackground"/>
 
         <ImageButton
             android:id="@+id/playback_button_next"
-            app:srcCompat="@android:drawable/ic_media_next" />
+            app:srcCompat="@drawable/icon_next"
+            android:background="?android:selectableItemBackground"/>
 
         <ImageButton
             android:id="@+id/playback_toggle_repeat"

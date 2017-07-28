@@ -15,11 +15,11 @@
    viewBox="0 0 135.46666 135.46667"
    version="1.1"
    id="svg8"
-   sodipodi:docname="icon_play.svg"
+   sodipodi:docname="icon_forward.svg"
    inkscape:version="0.92.1 r15371"
-   inkscape:export-filename="/home/xruxa/AndroidStudioProjects/DropboxPlayer/app/src/main/res/drawable-hdpi/icon_play.png"
-   inkscape:export-xdpi="18.000002"
-   inkscape:export-ydpi="18.000002">
+   inkscape:export-filename="/home/xruxa/AndroidStudioProjects/DropboxPlayer/icon_play.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
   <defs
      id="defs2">
     <linearGradient
@@ -61,15 +61,28 @@
     <filter
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
-       id="filter4628"
-       x="-0.044004427"
-       width="1.0880089"
-       y="-0.030459417"
-       height="1.0609188">
+       id="filter5388"
+       x="-0.20336842"
+       width="1.4067368"
+       y="-0.045637798"
+       height="1.0912756">
       <feGaussianBlur
          inkscape:collect="always"
-         stdDeviation="0.82470115"
-         id="feGaussianBlur4630" />
+         stdDeviation="1.2779375"
+         id="feGaussianBlur5390" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter5392"
+       x="-0.068188223"
+       width="1.1363764"
+       y="-0.047199196"
+       height="1.0943984">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.2779375"
+         id="feGaussianBlur5394" />
     </filter>
   </defs>
   <sodipodi:namedview
@@ -80,7 +93,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="237"
+     inkscape:cx="236"
      inkscape:cy="256"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -99,7 +112,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -148,17 +161,31 @@
          id="path4571"
          style="opacity:0.28200001;fill:url(#radialGradient4605);fill-opacity:1;stroke:none;stroke-width:0.31524819;stroke-opacity:0.49056624" />
     </g>
-    <path
-       sodipodi:nodetypes="cccc"
-       inkscape:connector-curvature="0"
-       id="path4614"
-       d="m 54.048526,200.50174 44.714591,32.16164 -44.979174,32.81934 z"
-       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter4628)" />
+    <rect
+       style="opacity:1;fill:#dedddb;fill-opacity:1;stroke:none;stroke-width:1.05833328;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4722"
+       width="15.08125"
+       height="67.204163"
+       x="84.402084"
+       y="196.48495" />
     <path
        style="fill:#dedddb;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 54.048526,200.50174 44.714591,32.16164 -44.979174,32.81934 z"
+       d="m 39.158329,197.59655 44.714592,32.16164 -44.979175,32.81934 z"
        id="path4612"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
+    <rect
+       y="196.48495"
+       x="84.402084"
+       height="67.204163"
+       width="15.08125"
+       id="rect5360"
+       style="opacity:1;fill:#dedddb;fill-opacity:1;stroke:none;stroke-width:1.05833328;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5388)" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path5362"
+       d="m 39.158329,197.59655 44.714592,32.16164 -44.979175,32.81934 z"
+       style="fill:#dedddb;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter5392)" />
   </g>
 </svg>
