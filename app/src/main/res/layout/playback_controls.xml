@@ -20,7 +20,9 @@
 
         <ImageButton
             android:id="@+id/playback_toggle_shuffle"
-            app:srcCompat="@android:drawable/ic_media_rew" />
+            app:srcCompat="@drawable/icon_shuffle"
+            android:background="?android:selectableItemBackground"
+            android:layout_gravity="center"/>
 
         <ImageButton
             android:id="@+id/playback_button_prev"
@@ -39,7 +41,9 @@
 
         <ImageButton
             android:id="@+id/playback_toggle_repeat"
-            app:srcCompat="@android:drawable/ic_media_ff" />
+            app:srcCompat="@drawable/icon_repeat"
+            android:background="?android:selectableItemBackground"
+            android:layout_gravity="center"/>
     </TableRow>
 
 </TableLayout>

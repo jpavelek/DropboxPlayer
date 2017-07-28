@@ -17,9 +17,9 @@
    id="svg8"
    sodipodi:docname="icon_pause.svg"
    inkscape:version="0.92.1 r15371"
-   inkscape:export-filename="/home/xruxa/AndroidStudioProjects/DropboxPlayer/icon_play.png"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96">
+   inkscape:export-filename="/home/xruxa/AndroidStudioProjects/DropboxPlayer/app/src/main/res/drawable-hdpi/icon_pause.png"
+   inkscape:export-xdpi="18"
+   inkscape:export-ydpi="18">
   <defs
      id="defs2">
     <linearGradient
@@ -93,7 +93,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="236"
+     inkscape:cx="65.5"
      inkscape:cy="256"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -112,7 +112,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>

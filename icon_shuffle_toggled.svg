@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512"
+   height="512"
+   viewBox="0 0 135.46666 135.46667"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="icon_shuffle_toggled.svg"
+   inkscape:version="0.92.1 r15371"
+   inkscape:export-filename="/home/xruxa/AndroidStudioProjects/DropboxPlayer/app/src/main/res/drawable-hdpi/icon_shuffle_toggled.png"
+   inkscape:export-xdpi="18"
+   inkscape:export-ydpi="18">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.7851562"
+     inkscape:cx="256"
+     inkscape:cy="278.407"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1871"
+     inkscape:window-height="1056"
+     inkscape:window-x="49"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     showguides="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-161.53332)">
+    <g
+       id="g5629"
+       style="fill:#dedede;fill-opacity:1">
+      <path
+         style="opacity:1;fill:#dedede;fill-opacity:1;stroke:none;stroke-width:0.68595678;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.46951222"
+         d="m 116.83355,260.41365 -9.21585,-9.21585 v 18.4317 z"
+         id="path4513"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc" />
+      <path
+         sodipodi:nodetypes="ccccccccc"
+         inkscape:connector-curvature="0"
+         id="path5620"
+         d="m 24.161611,195.66457 h 12.880055 l 61.251041,61.25104 H 107.95 v 7.01146 H 93.397915 L 32.54375,203.0729 h -8.202084 z"
+         style="fill:#dedede;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5635"
+       transform="matrix(1,0,0,-1,0.14821298,459.66198)"
+       style="fill:#dedede;fill-opacity:1">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path5631"
+         d="m 116.83355,260.41365 -9.21585,-9.21585 v 18.4317 z"
+         style="opacity:1;fill:#dedede;fill-opacity:1;stroke:none;stroke-width:0.68595678;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.46951222" />
+      <path
+         style="fill:#dedede;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 24.161611,195.66457 h 12.880055 l 61.251041,61.25104 H 107.95 v 7.01146 H 93.397915 L 32.54375,203.0729 h -8.202084 z"
+         id="path5633"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccccccc" />
+    </g>
+  </g>
+</svg>
