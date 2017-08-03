@@ -30,7 +30,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1.7851562"
      inkscape:cx="256"
-     inkscape:cy="278.407"
+     inkscape:cy="233.593"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -58,25 +58,14 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-161.53332)">
-    <g
-       id="g5629"
-       style="fill:#dedede;fill-opacity:1">
-      <path
-         style="opacity:1;fill:#dedede;fill-opacity:1;stroke:none;stroke-width:0.68595678;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.46951222"
-         d="m 116.83355,260.41365 -9.21585,-9.21585 v 18.4317 z"
-         id="path4513"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cccc" />
-      <path
-         sodipodi:nodetypes="ccccccccc"
-         inkscape:connector-curvature="0"
-         id="path5620"
-         d="m 24.161611,195.66457 h 12.880055 l 61.251041,61.25104 H 107.95 v 7.01146 H 93.397915 L 32.54375,203.0729 h -8.202084 z"
-         style="fill:#dedede;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    </g>
+    <path
+       style="opacity:1;fill:#dedede;fill-opacity:1;stroke:none;stroke-width:1.9053874;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.46951222"
+       d="M 143.97656 193.01562 L 144.47656 213.59375 L 167.25977 213.59375 L 236.79102 283.125 L 253.32617 266.58984 L 179.75391 193.01562 L 143.97656 193.01562 z M 279.86328 293.12695 L 263.32812 309.66211 L 336.29492 382.62891 L 375.79297 382.62891 L 375.79297 398.46875 L 401.39062 372.87109 L 375.79297 347.27148 L 375.79297 363.1543 L 349.89062 363.1543 L 279.86328 293.12695 z "
+       transform="matrix(0.26458333,0,0,0.26458333,0,161.53332)"
+       id="path4513" />
     <g
        id="g5635"
-       transform="matrix(1,0,0,-1,0.14821298,459.66198)"
+       transform="matrix(0.73493519,0,0,-0.73493519,20.445341,406.62322)"
        style="fill:#dedede;fill-opacity:1">
       <path
          sodipodi:nodetypes="cccc"

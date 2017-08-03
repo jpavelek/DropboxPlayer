@@ -16,7 +16,7 @@
    id="svg8"
    sodipodi:docname="icon_repeat_toggled.svg"
    inkscape:version="0.92.1 r15371"
-   inkscape:export-filename="/home/xruxa/AndroidStudioProjects/DropboxPlayer/app/src/main/res/drawable-hdpi/icon_repeat_toggled.png"
+   inkscape:export-filename="/home/xruxa/AndroidStudioProjects/DropboxPlayer/app/src/main/res/drawable-hdpi/icon_repeat.png"
    inkscape:export-xdpi="18"
    inkscape:export-ydpi="18">
   <defs
@@ -29,7 +29,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="85.5"
+     inkscape:cx="256"
      inkscape:cy="256"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -58,13 +58,13 @@
      id="layer1"
      transform="translate(0,-161.53332)">
     <path
-       style="opacity:1;fill:#dedede;fill-opacity:1;stroke:none;stroke-width:0.68595678;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.46951222"
-       d="m 31.99136,193.58529 c -5.117376,0 -9.237194,4.11982 -9.237194,9.2372 v 49.89263 c 0,5.11737 4.119818,9.2372 9.237194,9.2372 h 58.564008 v -6.74525 h -57.58911 c -1.603937,0 -2.89522,-1.29128 -2.89522,-2.89522 v -49.0861 c 0,-1.60394 1.291283,-2.89522 2.89522,-2.89522 h 10.295603 l -3.592339,-3.59234 3.152899,-3.1529 z m 16.893918,0 v 6.74524 h 56.260962 c 1.60394,0 2.89522,1.29128 2.89522,2.89522 v 49.0861 c 0,1.60394 -1.29128,2.89522 -2.89522,2.89522 h -8.515063 l 3.139946,3.13995 -3.60529,3.6053 h 9.955307 c 5.11738,0 9.2372,-4.11983 9.2372,-9.2372 v -49.89263 c 0,-5.11738 -4.11982,-9.2372 -9.2372,-9.2372 z"
+       style="opacity:1;fill:#dedede;fill-opacity:1;stroke:none;stroke-width:0.45620346;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.46951222"
+       d="m 46.095385,206.704 c -3.40337,0 -6.143302,2.73993 -6.143302,6.14331 v 33.18167 c 0,3.40336 2.739932,6.1433 6.143302,6.1433 h 38.948666 v -4.486 H 46.743752 c -1.066716,0 -1.925499,-0.85879 -1.925499,-1.9255 V 213.1155 c 0,-1.06672 0.858783,-1.9255 1.925499,-1.9255 h 6.84721 l -2.389127,-2.38913 2.096872,-2.09687 z m 11.235495,0 v 4.486 h 37.417002 c 1.066712,0 1.925493,0.85878 1.925493,1.9255 v 32.64528 c 0,1.06671 -0.858781,1.9255 -1.925493,1.9255 h -5.663043 l 2.088258,2.08826 -2.397741,2.39774 h 6.620888 c 3.403372,0 6.143306,-2.73994 6.143306,-6.1433 v -33.18167 c 0,-3.40338 -2.739934,-6.14331 -6.143306,-6.14331 z"
        id="rect4498"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:1;fill:#dedede;fill-opacity:1;stroke:none;stroke-width:0.68595678;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.46951222"
-       d="m 43.163788,196.73815 9.215853,-9.21585 v 18.4317 z"
+       style="opacity:1;fill:#dedede;fill-opacity:1;stroke:none;stroke-width:0.45620346;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.46951222"
+       d="m 53.525737,208.80085 6.12911,-6.12911 v 12.25821 z"
        id="rect4503"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
@@ -72,7 +72,10 @@
        sodipodi:nodetypes="cccc"
        inkscape:connector-curvature="0"
        id="path4513"
-       d="m 96.953329,258.091 -9.215853,-9.21585 v 18.4317 z"
-       style="opacity:1;fill:#dedede;fill-opacity:1;stroke:none;stroke-width:0.68595678;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.46951222" />
+       d="m 89.29909,249.60427 -6.129109,-6.12911 v 12.25821 z"
+       style="opacity:1;fill:#dedede;fill-opacity:1;stroke:none;stroke-width:0.45620346;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.46951222"
+       inkscape:export-filename="/home/xruxa/AndroidStudioProjects/DropboxPlayer/app/src/main/res/drawable-hdpi/icon_repeat_toggled.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
   </g>
 </svg>
